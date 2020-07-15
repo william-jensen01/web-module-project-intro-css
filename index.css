@@ -58,9 +58,13 @@ text-decoration: none;
 }
 
 #get {
-
+background-color: #FFCD69;
 }
 
 header {
-font-family: 'Chelsea Market', serif;
+font-family: 'Chelsea Market';
+}
+
+header h1 {
+    font-size: 3rem;
 }
