@@ -18,139 +18,119 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-
-
-#plan {
-background-color: #FF764E;
-color: white;
-text-decoration: none;
-border-radius: .7rem;
-height: 3rem;
-font-size: 1rem;
-width: 7rem;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-}
-
-#learn {
-background-color: #5ED3EB;
-color: white;
-text-decoration: none;
-border-radius: .7rem;
-height: 3rem;
-font-size: 1rem;
-width: 7rem;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-}
-
-#get {
-background-color: #FFCD69;
-color: white;
-text-decoration: none;
-border-radius: .7rem;
-height: 3rem;
-font-size: 1rem;
-width: 7rem;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-}
-
-nav {
-    align-items: center;
-}
-
-header {
-font-family: 'Chelsea Market';
-}
-
-header h1 {
-    font-size: 3rem;
-    display: inline-flex;
-}
-
-a {
-    text-decoration: none;
-    text-align: center;
-    color: white;
-}
-
-#info {
-    font-family: 'Roboto Mono';
-    background-color: #DDB9A3;
-    color: white;
-    display: inline-block;
-    margin: 1rem;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 .container{
-text-align: center;
-margin: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
-
-#circle {
-border-radius: 10rem;
-width: 10%;
-height: 10%;
-
+nav {
+  text-align: center;
 }
-
-#panorama {
-margin-right: auto;
-margin-left: auto;
-width: 100%;
-height: 50%;
-margin: 0;
+.pyv {
+    background-color: #FF764E;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size:2rem;
+    margin: 5%;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+	width: 16rem;
+	display: inline-block;
 }
-
-#camper {
-display: block;
-margin-right: auto;
-margin-left: auto;
-width: 6%;
-height: 6%;
-align-items: center;
-padding: 1rem;
+.latp {
+	background-color: #5ED3EB;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2rem;
+	margin: 5%;
+	border-radius: 2rem;
+	padding: 1rem;
+	border: none;
+	width: 16rem;
+	display: inline-block;
 }
-
-#fire {
-display: block;
-margin-right: auto;
-margin-left: auto;
-width: 6%;
-height: 6%;
-align-items: center;
-padding: 1rem;
+.gi {
+    background-color: #FFCD69;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    margin: 5%;
+    border-radius: 2rem;
+    padding: .5rem;
+    border: none;
+	width: 16rem;
+	height: 5rem;
+	display: inline-block;
 }
-
-footer {
-background-color: #F9E7DC;
+.headerinvite {
+    display: flex;
+    justify-content: space-evenly;
+	margin: 0rem 5rem;
+}
+header img {
+    width: 30rem;
+    border-radius: 50%;
+}
+.banner h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+    font-weight: 100;
+    text-align: center;    
+}
+.banner p {
+    font-family: 'Roboto Mono';
+    font-size: 3rem;
+    text-align: center;
+	font-weight: bold;
+}
+.main_text {
+	display: block;
+  	background-color: #DDB9A3;
+  	color: white;
+  	padding: 1.3rem;
+  	font-size: 2.8rem;
+  	margin-left: 4rem;
+  	margin-right: 4rem;
+  	text-align: center;
+	margin-top: 3rem;
+	font-family: 'Roboto Mono';
+}
+.helpful_info {
+  	text-align: center;
+	  display: block;
+	font-family: 'Roboto Mono';
+}
+.helpful_info img {
+  	max-width: 15%;
+  	margin-top: 3rem;
+}
+.helpful_info p {
+  	max-width: 25%;
+  	text-align: center;
+  	margin: auto;
+  	font-size: 2rem;
+}
+footer{
+  	background-color: #F9E7DC;
+  	margin-top: 6rem;
+  	width: 100%;
+}
+footer img{
+  	object-fit: cover;
+  	object-position: 100% 0;
+  	max-height:40rem;
+  	width: 100%;
+}
+strong {
+	font-weight: bold;
 }
