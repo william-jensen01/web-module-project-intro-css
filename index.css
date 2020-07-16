@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+nav {
+  text-align: center;
+}
+.pyv {
+    background-color: #FF764E;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size:2rem;
+    margin: 5%;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+	width: 16rem;
+	display: inline-block;
+}
+.latp {
+	background-color: #5ED3EB;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2rem;
+	margin: 5%;
+	border-radius: 2rem;
+	padding: 1rem;
+	border: none;
+	width: 16rem;
+	display: inline-block;
+}
+.gi {
+    background-color: #FFCD69;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    margin: 5%;
+    border-radius: 2rem;
+    padding: .5rem;
+    border: none;
+	width: 16rem;
+	height: 5rem;
+	display: inline-block;
+}
+.headerinvite {
+    display: flex;
+    justify-content: space-evenly;
+	margin: 0rem 5rem;
+}
+header img {
+    width: 30rem;
+    border-radius: 50%;
+}
+.banner h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+    font-weight: 100;
+    text-align: center;    
+}
+.banner p {
+    font-family: 'Roboto Mono';
+    font-size: 3rem;
+    text-align: center;
+	font-weight: bold;
+}
+.main_text {
+	display: block;
+  	background-color: #DDB9A3;
+  	color: white;
+  	padding: 1.3rem;
+  	font-size: 2.8rem;
+  	margin-left: 4rem;
+  	margin-right: 4rem;
+  	text-align: center;
+	margin-top: 3rem;
+	font-family: 'Roboto Mono';
+}
+.helpful_info {
+  	text-align: center;
+	  display: block;
+	font-family: 'Roboto Mono';
+}
+.helpful_info img {
+  	max-width: 15%;
+  	margin-top: 3rem;
+}
+.helpful_info p {
+  	max-width: 25%;
+  	text-align: center;
+  	margin: auto;
+  	font-size: 2rem;
+}
+footer{
+  	background-color: #F9E7DC;
+  	margin-top: 6rem;
+  	width: 100%;
+}
+footer img{
+  	object-fit: cover;
+  	object-position: 100% 0;
+  	max-height:40rem;
+  	width: 100%;
+}
+strong {
+	font-weight: bold;
+}
